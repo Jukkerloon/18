@@ -1,0 +1,63 @@
+a = input()
+b = input()
+c = input()
+mul = int(a) * int(b) * int(c)
+sum = int(a) + int(b) + int(c)
+avg = mul/3
+print(mul, sum, avg)
+
+
+import math
+ 
+print('введите координаты точки A')
+x1 = float(input())
+y1 = float(input())
+print('введите координаты точки B')
+x2 = float(input())
+y2 = float(input())
+d = math.sqrt((y2-y1)**2 + (x2-x1)**2)
+print('Ответ')
+print(d)
+
+
+
+import random
+n = str(random.randint(100,999))
+s = n[0]+","+n[1]+","+n[2]
+print(s)
+
+
+a = int(input())
+b = int(input())
+a,b = b,a
+print (a,b)
+
+a = int(input())
+b = int(input())
+a,b = b,a
+
+
+import random
+ 
+a = random.randint(2, 16)
+o = ''
+while a > 0:  
+    o = str(a % 2) + o
+    a = a // 2
+print (o)
+
+
+
+import random
+ 
+a = random
+a = random.randint(2, 16)
+o = ''
+d = 0
+while a > 0:
+    o = str(a % 2) + o
+    a = a // 2
+for i in o:
+    d = d * 2 + int(i)
+print(d)
+print (a,b)
